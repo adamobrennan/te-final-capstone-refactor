@@ -1,4 +1,4 @@
-package com.techelevator.dao;
+package com.techelevator.jdbc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
+
+import com.techelevator.dao.AppointmentTypesDAO;
 
 @Component
 public class AppointmentTypesSqlDAO implements AppointmentTypesDAO {

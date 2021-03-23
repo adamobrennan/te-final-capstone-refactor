@@ -1,4 +1,4 @@
-package com.techelevator.dao;
+package com.techelevator.jdbc;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -8,6 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
+import com.techelevator.dao.PatientDAO;
 import com.techelevator.model.Doctor;
 import com.techelevator.model.Patient;
 

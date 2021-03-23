@@ -1,4 +1,4 @@
-package com.techelevator.dao;
+package com.techelevator.jdbc;
 
 import java.sql.Time;
 import java.time.DateTimeException;
@@ -14,6 +14,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
+import com.techelevator.dao.DoctorAvailabilityDAO;
 import com.techelevator.model.DoctorAvailability;
 
 @Component

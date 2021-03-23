@@ -1,4 +1,4 @@
-package com.techelevator.dao;
+package com.techelevator.jdbc;
 
 import java.sql.PreparedStatement;
 import java.util.ArrayList;
@@ -11,6 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.techelevator.dao.UserDAO;
 import com.techelevator.model.ForgotPasswordDTO;
 import com.techelevator.model.UpdatePasswordDTO;
 import com.techelevator.model.User;
