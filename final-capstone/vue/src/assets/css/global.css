@@ -1,0 +1,72 @@
+
+   @import url('https://fonts.googleapis.com/css?family=Mulish');
+
+:root{
+    --main-color-dark1: #004a7c;
+    --main-color-dark2: #005691;
+    --main-color-dark3: #e8f1f5;
+    --main-color-dark4: #fafafa;
+    }
+
+ 
+
+html,body{
+    margin:0;
+    font-family:  Helvetica,Arial,  sans-serif;
+    height: 100%;
+    background: rgb(250,250,250);
+    background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(232,241,245,1) 59%, rgba(0,74,124,1) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.standard-button{
+    background-color: var(--main-color-dark2);
+    color: var(--main-color-dark4);
+    border-radius: 5px;
+    margin:3px;
+}
+
+.standard-button:hover{
+    background-color: var(--main-color-dark4);
+    color: black;
+}
+
+
+.standard-display-slot{
+    display: flex;
+    background-color:var(--main-color-dark4);
+   
+    color: black;
+    border: 1px solid var(--main-color-dark1);
+    width:90%;
+    margin:3px;
+    border-radius: 3px;
+    padding:5px;
+
+
+}
+
+.standard-component-container{
+    display:flex;
+    flex-direction: column;
+   background-color: var(--main-color-dark3);
+   align-items: center;
+   color: white;
+   padding:5px;
+   border:2px solid var(--main-color-dark1);
+   border-radius: 3px;
+   color:black;
+}
+
+.standard-component-header{
+    color: var(--main-color-dark1);
+    font-size: 1.5em;
+}
+
+
+ul {
+    list-style: none;
+  }
