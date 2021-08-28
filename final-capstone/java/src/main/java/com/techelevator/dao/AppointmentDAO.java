@@ -1,7 +1,6 @@
 package com.techelevator.dao;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.List;
 
 import com.techelevator.model.Appointment;

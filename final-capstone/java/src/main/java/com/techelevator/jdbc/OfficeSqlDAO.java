@@ -15,6 +15,10 @@ import com.techelevator.dao.OfficeDAO;
 import com.techelevator.model.Doctor;
 import com.techelevator.model.Office;
 
+/**
+ * @author 17347
+ *
+ */
 @Component
 public class OfficeSqlDAO implements OfficeDAO {
 
@@ -128,6 +132,7 @@ public class OfficeSqlDAO implements OfficeDAO {
 						office.getCost(), officeId);
 		return result;
 	}
+	
 	
 	@Override
 	public Office getOfficeByAdmin(Long adminId) {
